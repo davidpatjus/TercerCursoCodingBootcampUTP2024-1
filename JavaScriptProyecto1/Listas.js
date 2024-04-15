@@ -1,7 +1,7 @@
 /*
--fecha de publicacion:
--hora:
--version: 1.0
+-fecha de publicacion:15/04/204
+-hora: 1PM
+-version: 1.1
 -autor: ING david patiño
 -lenguaje utilizado: ECMASCRIPT 6.0 (javascript 6.0)
 -version lenguaje: 6.0
@@ -67,7 +67,7 @@ function encontrarMinMax(lista) {
 let listaA =[ 3,7,5,1,9];
 let listaB =[ 10,6,8,2,4,];
 
-let listaCombinadayOrdenada = combinarYOrdenar(lista1,lista2);
+let listaCombinadayOrdenada = combinarYOrdenar(listaA,listaB);
 
 console.log("SEGUNDO EJERCICIO (concatenar listas)");
 console.log("para las listas ","lista 1:",lista1,"lista 2:",lista2,);

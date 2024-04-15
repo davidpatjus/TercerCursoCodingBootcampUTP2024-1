@@ -1,7 +1,7 @@
 /*
--fecha de publicacion:
--hora:
--version: 1.0
+-fecha de publicacion:15/04/204
+-hora: 1PM
+-version: 1.1
 -autor: ING david patiño
 -lenguaje utilizado: ECMASCRIPT 6.0 (javascript 6.0)
 -version lenguaje: 6.0

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Enlace al archivo CSS de estilos para el registro -->
+  <link href="registro.css" rel="stylesheet">
+  <!-- Metaetiqueta para el conjunto de caracteres -->
+  <meta charset="UTF-8">
+  <!-- Enlace a la fuente Poppins desde Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+  <!-- Metaetiqueta para configurar el viewport -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://kit.fontawesome.com/8efae68dd6.js" crossorigin="anonymous"></script>
+  <!-- Título de la página -->
+  <title>REGISTRARSE</title> 
+</head>
+
+<body>
+
+  <!-- Encabezado de la página -->
+  <header class="header">
+    <div class="menu container">
+      <!-- Logo y enlace al inicio -->
+      <a href="index.html" class="logo">!PAT'S VAPE'S!</a>
+      <!-- Checkbox para el menú desplegable -->
+      <input type="checkbox" id="menu" />
+      <!-- Barra de navegación -->
+      <nav class="navbar">
+        <ul>
+          <!-- Enlace a la página de inicio de sesión -->
+          <li><a href="login.html">LOGIN</a></li>
+          <!-- Enlace al carrito -->
+          <li><a href="#">CARRITO</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Sección de contenido -->
+  <section>
+    <div class="contenedor">
+      <div class="formulario">
+        <!-- Formulario de registro -->
+        <form action="#">
+          <h2>REGISTRARSE</h2>
+
+          <!-- Campo de entrada para el nombre de usuario -->
+          <div class="input-contenedor">
+            <i class="fa-solid fa-user"></i>
+            <input type="email" required>
+            <label for="#">Nombre De Usuario</label>
+          </div>
+
+          <!-- Campo de entrada para el email -->
+          <div class="input-contenedor">
+            <i class="fa-regular fa-envelope"></i>
+            <input type="email" required>
+            <label for="#">Email</label>
+          </div>
+          
+          <!-- Campo de entrada para la contraseña -->
+          <div class="input-contenedor">
+            <i class="fa-solid fa-lock"></i>
+            <input type="password" required>
+            <label for="#" type="password">Contraseña</label>
+          </div>
+        </form>
+
+        <div>
+          <!-- Botón para registrarse -->
+          <button><a href="login.html">Registrarme</a></button>
+
+          <!-- Enlace para iniciar sesión -->
+          <div class="registrar">
+            <p>Ya Tengo Cuenta <a href="login.html">Inicia Sesión.</a></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</body>
+</html>

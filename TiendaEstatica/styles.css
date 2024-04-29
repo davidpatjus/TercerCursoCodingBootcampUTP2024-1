@@ -1,0 +1,293 @@
+/* Importación de la fuente Poppins desde Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400,500;600,700;800&display=swap');
+
+/* Estilos generales */
+* {
+    margin: 0; /* Sin margen */
+    padding: 0; /* Sin relleno */
+    box-sizing: border-box; /* Modelo de caja de borde */
+    text-decoration: none; /* Sin decoración de texto */
+    list-style: none; /* Sin viñetas */
+}
+
+/* Estilos para el cuerpo de la página */
+body {
+    font-family: 'Poppins', sans-serif; /* Fuente principal */
+    background: url(images/nebula.jpg); /* Fondo de la página */
+    background-size: cover; /* Tamaño del fondo */
+    background-position: center; /* Posición del fondo */
+}
+
+/* Estilos para imágenes */
+img {
+    max-width: 100%; /* Ancho máximo del 100% */
+    border-radius: 10%; /* Radio de borde */
+    padding: 10px; /* Relleno */
+}
+
+/* Contenedor general */
+.container {
+    max-width: 1200px; /* Ancho máximo del contenedor */
+    margin: 0 auto; /* Centrar horizontalmente */
+}
+
+/* Estilos para el encabezado */
+.header {
+    background-position: center center; /* Posición del fondo */
+    background-repeat: no-repeat; /* No repetir el fondo */
+    background-size: cover; /* Tamaño del fondo */
+    display: flex; /* Mostrar como flexbox */
+    align-items: center; /* Centrar verticalmente */
+    min-height: 80px; /* Altura mínima */
+    padding: 80px 0; /* Relleno superior e inferior */
+}
+
+/* Menú de navegación */
+.menu {
+    position: absolute; /* Posición absoluta */
+    top: 0; /* Desde arriba */
+    left: 0; /* Desde la izquierda */
+    right: 0; /* Hasta la derecha */
+    display: flex; /* Mostrar como flexbox */
+    align-items: center; /* Centrar verticalmente */
+    justify-content: space-between; /* Distribuir elementos */
+}
+
+/* Estilos para el logo */
+.logo {
+    color: #ff5a2c; /* Color del texto */
+    font-size: 25px; /* Tamaño del texto */
+    font-weight: 800; /* Grosor del texto */
+    text-transform: uppercase; /* Convertir en mayúsculas */
+}
+
+/* Enlaces del menú */
+.menu .navbar ul li {
+    position: relative; /* Posición relativa */
+    float: left; /* Flotar a la izquierda */
+}
+
+.menu .navbar ul li a {
+    font-size: 18px; /* Tamaño del texto */
+    padding: 20px; /* Espaciado interno */
+    color: #FFFFFF; /* Color del texto */
+    font-weight: 600; /* Grosor del texto */
+    display: block; /* Mostrar como bloque */
+}
+
+.menu .navbar ul li a:hover {
+    color: #283BFF; /* Color del texto al pasar el ratón */
+}
+
+/* Checkbox para el menú desplegable */
+#menu {
+    display: none; /* Ocultar checkbox */
+}
+
+/* Icono del menú */
+.menu-icono {
+    width: 25px; /* Ancho del icono */
+}
+
+/* Etiqueta de menú */
+.menu label {
+    cursor: pointer; /* Cursor de puntero */
+    display: none; /* Ocultar */
+}
+
+/* Contenido del encabezado */
+.header-content {
+    display: flex; /* Mostrar como flexbox */
+}
+
+/* Texto del encabezado */
+.header-txt {
+    flex-basis: 50%; /* Ancho del 50% */
+}
+
+.header-txt h1 {
+    font-size: 60px; /* Tamaño del texto */
+    color: #FFFFFF; /* Color del texto */
+    line-height: 1.3; /* Altura de línea */
+    margin-bottom: 25px; /* Margen inferior */
+}
+
+.header-txt span {
+    color: #283BFF; /* Color del texto */
+}
+
+.header-txt p {
+    font-size: 17px; /* Tamaño del texto */
+    color: #e0e0e0; /* Color del texto */
+    margin-bottom: 45px; /* Margen inferior */
+}
+
+/* Botones del encabezado */
+.butons {
+    display: flex; /* Mostrar como flexbox */
+}
+
+.btn-1, .btn-2, .btn-3 {
+    display: inline-block; /* Mostrar en línea */
+    padding: 11px 35px; /* Relleno */
+    border: 2px solid #283BFF; /* Borde sólido */
+    border-radius: 25px; /* Radio de borde */
+    margin-right: 25px; /* Margen derecho */
+    font-size: 17px; /* Tamaño del texto */
+    color: #FFFFFF; /* Color del texto */
+}
+
+.btn-1:hover {
+    background-color: #283BFF; /* Color de fondo al pasar el ratón */
+}
+
+/* Sección de productos populares */
+.popular {
+    padding: 100px 0; /* Relleno superior e inferior */
+    text-align: center; /* Alineación del texto */
+}
+
+.popular h2 {
+    color: #FFFFFF; /* Color del texto */
+    font-size: 35px; /* Tamaño del texto */
+    margin-bottom: 45px; /* Margen inferior */
+}
+
+/* Contenido del producto */
+.product-content {
+    display: grid; /* Mostrar como cuadrícula */
+    grid-template-columns: repeat(3, 1fr); /* Tres columnas iguales */
+    gap: 50px; /* Espacio entre elementos */
+}
+
+/* Producto individual */
+.product-1 {
+    background: rgba(1, 190, 190, 0.253); /* Fondo del producto */
+    backdrop-filter: blur(10px); /* Desenfoque del fondo */
+    border-radius: 10px; /* Radio de borde */
+    border-width: 5px; /* Ancho del borde */
+    border-color: whitesmoke; /* Color del borde */
+    border-style: outset; /* Estilo del borde */
+}
+
+.product-1:hover {
+    background: transparent; /* Fondo transparente al pasar el ratón */
+    backdrop-filter: blur(10px); /* Desenfoque del fondo */
+    box-shadow: 24px 24px 48px #8ab1b4, -24px -24px 48px #62abb0; /* Sombra */
+    border-radius: 10px; /* Radio de borde */
+}
+
+.product-txt {
+    padding: 50px 30px; /* Relleno */
+}
+
+h3 {
+    font-size: 20px; /* Tamaño del texto */
+    color: #FFFFFF; /* Color del texto */
+    margin-bottom: 20px; /* Margen inferior */
+}
+
+.price {
+    display: flex; /* Mostrar como flexbox */
+    justify-content: space-between; /* Espacio entre elementos */
+    align-items: center; /* Centrar verticalmente */
+}
+
+.price p {
+    font-size: 17px; /* Tamaño del texto */
+    color: #FFFFFF; /* Color del texto */
+}
+
+/* Estilos para el botón 2 */
+.btn-2 {
+    padding: 5px 25px; /* Relleno */
+    background-color: #283BFF; /* Color de fondo */
+    margin-right: 0; /* Sin margen derecho */
+}
+
+.contact {
+    padding: 150px 300px; /* Relleno superior e inferior */
+}
+
+.contact-content {
+    background-color: #8A54D1; /* Color de fondo */
+    text-align: center; /* Alineación del texto */
+    padding: 50px; /* Relleno */
+    border-radius: 50px; /* Radio de borde */
+}
+
+form {
+    display: flex; /* Mostrar como flexbox */
+    justify-content: center; /* Centrar horizontalmente */
+    margin-top: 20px; /* Margen superior */
+}
+
+input {
+    padding: 18px 25px; /* Relleno */
+    background-color: #3f3456; /* Color de fondo */
+    border: 0; /* Sin borde */
+    border-radius: 25px; /* Radio de borde */
+    outline: none; /* Sin contorno */
+    margin-right: 10px; /* Margen derecho */
+    color: #FFFFFF; /* Color del texto */
+    font-size: 17px; /* Tamaño del texto */
+}
+
+::placeholder {
+    color: #e0e0e0; /* Color del marcador de posición */
+    font-size: 17px; /* Tamaño del texto */
+}
+
+/* Estilos para el botón 3 */
+.btn-3 {
+    background-color: #283BFF; /* Color de fondo */
+    cursor: pointer; /* Cursor de puntero */
+    margin-right: 0; /* Sin margen derecho */
+}
+
+/* Pie de página */
+.footer {
+    display: flex; /* Mostrar como flexbox */
+    justify-content: space-between; /* Espacio entre elementos */
+    align-items: center; /* Centrar verticalmente */
+    padding: 50px 0; /* Relleno superior e inferior */
+}
+
+/* Enlaces del pie de página */
+.link ul {
+    display: flex; /* Mostrar como flexbox */
+}
+
+.link ul li > a {
+    font-size: 17px; /* Tamaño del texto */
+    color: #FFFFFF; /* Color del texto */
+    margin-right: 20px; /* Margen derecho */
+}
+
+.link ul li > a:hover {
+    color: #ff5a2c; /* Color del texto al pasar el ratón */
+}
+
+/* Información de contacto en el pie de página */
+.contactfooter p {
+    font-size: 20px; /* Tamaño del texto */
+    color: #FFFFFF; /* Color del texto */
+    margin-right: 20px; /* Margen derecho */
+}
+
+.contactfooter a {
+    font-size: 17px; /* Tamaño del texto */
+    text-decoration: underline; /* Subrayado */
+    color: #FFFFFF; /* Color del texto */
+}
+
+.contactfooter a:hover {
+    color: #ff5a2c; /* Color del texto al pasar el ratón */
+}
+
+#elementostienda{
+    font-size: 40px;
+    color: #FFFFFF;
+    padding-bottom: 15px;
+    
+}

@@ -1,0 +1,61 @@
+body, html {
+    background-image: url('./imagenes/galaxia.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    font-family: 'Lato', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .app {
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+.david-logo-contenedor {
+    margin: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.david-logo {
+    height: 10vh;
+}
+
+.contenedor-calculadora {
+    width: 400px;
+    height: 600px;
+    padding: 24px;
+    background-color: transparent;
+    backdrop-filter: blur(25px);
+    border-radius: 20px;
+    border: 5px solid white;
+}
+
+.fila {
+    margin: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.text {
+    display: flex;  
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    color: white;
+    margin: 0;
+}

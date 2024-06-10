@@ -1,0 +1,58 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    background-image: url(Assets/galaxia.jpg);
+    background-size: cover;
+}
+
+p {
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    justify-content: center;
+    align-items: center;
+}
+
+.text-name {
+    font-size: 25px;
+    color: white;
+    text-decoration: dashed;
+    text-shadow: 0px 0px 10px #fff;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.App {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    padding-top: 15px;
+    font-family: lato, sans-serif;
+}
+
+.david-logo-cotenedor {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+}
+
+.david-logo {
+    height: 100px;
+    justify-content: center;
+}
+
+.contenedor-principal {
+    height: 550px;
+    min-width: 600px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}

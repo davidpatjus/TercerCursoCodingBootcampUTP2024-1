@@ -1,0 +1,48 @@
+/* character.css */
+
+/* Estilos para el contenedor de la lista de personajes */
+.character-list-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    grid-gap: 20px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Estilos opcionales para centrar la lista de personajes */
+  .character-list-container-centered {
+    display: flex;
+    justify-content: center;
+  }
+  
+  /* Estilos para cada elemento de la lista de personajes */
+  .character-list-item {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Estilos para los títulos de personajes */
+  .character-list-item h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  /* Estilos para las especies de personajes */
+  .character-list-item p {
+    font-size: 16px;
+    color: #666;
+  }
+  
+  /* Estilos adicionales para la lista de personajes */
+  .character-list-container {
+    margin-top: 20px;
+  }
+  
+ 
+  

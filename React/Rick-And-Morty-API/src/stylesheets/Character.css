@@ -1,0 +1,37 @@
+/* Estilos para el contenedor del personaje */
+.character-container {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: #f9f9f9;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Estilos para el nombre del personaje */
+  .character-name {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  /* Estilos para las características del personaje */
+  .character-info {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 10px;
+  }
+  
+  /* Estilos para las imágenes */
+  .character-image {
+    max-width: 100%;
+    border-radius: 8px;
+    margin-bottom: 10px;
+  }
+  
+  /* Estilos específicos para la segunda imagen */
+  .character-second-image {
+    border: 2px solid #ccc;
+    border-radius: 8px;
+  }

@@ -1,0 +1,20 @@
+/* Estilos para la aplicación */
+.app {
+  display: flex;
+  background-color: #f5f5f5;
+  font-family: 'Arial', sans-serif;
+}
+
+.content {
+  margin-left: 300px; 
+  padding: 20px;
+  width: calc(100% - 300px);
+  background-color: #ffffff;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  transition: margin-left 0.3s, width 0.3s;
+}
+
+h1 {
+  padding-left: 50px;
+}

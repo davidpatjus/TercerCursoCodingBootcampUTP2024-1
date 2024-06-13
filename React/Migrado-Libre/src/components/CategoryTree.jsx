@@ -9,9 +9,8 @@ import '../stylesheets/CategoryTree.css';
  * @param {Function} toggleCategory - Función para alternar el estado de expansión de una categoría.
  * @param {Array} expandedCategories - Arreglo de IDs de categorías expandidas.
  * @param {Function} onCategoryClick - Función para manejar eventos de clic en la categoría.
- * @returns Elemento JSX
+ * @returns {JSX.Element} Elemento JSX
  */
-
 const CategoryTree = ({ categories, toggleCategory, expandedCategories, onCategoryClick }) => {
   return (
     <ul className="category-tree">
@@ -36,11 +35,10 @@ const CategoryTree = ({ categories, toggleCategory, expandedCategories, onCatego
   );
 };
 
- /**
+/**
  * Componente CategorySidebar
- * @returns Elemento JSX
+ * @returns {JSX.Element} Elemento JSX
  */
-
 const CategorySidebar = () => {
   // Estado para almacenar las categorías
   const [categories, setCategories] = useState([]);
@@ -85,7 +83,10 @@ const CategorySidebar = () => {
     fetchCategories();
   }, []);
 
-  // Función para alternar el estado de expansión de una categoría
+  /**
+   * Función para alternar el estado de expansión de una categoría
+   * @param {number} categoryId - ID de la categoría a alternar
+   */
   const toggleCategory = async (categoryId) => {
     if (expandedCategories.includes(categoryId)) {
       // Si ya está expandida, la colapsa
@@ -110,7 +111,10 @@ const CategorySidebar = () => {
     }
   };
 
-  // Función para manejar clics en una categoría
+  /**
+   * Función para manejar clics en una categoría
+   * @param {number} categoryId - ID de la categoría clicada
+   */
   const handleCategoryClick = (categoryId) => {
     navigate(`/${categoryId}`);
   };
